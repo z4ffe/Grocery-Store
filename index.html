@@ -22,12 +22,12 @@
         <div class="nav-header__cart">
             <div class="wishlist">
                 <img src="img/li_heart.svg" alt="wishlist logo">
-                <span>Wishlist</span>
+                <span><a href="#">Wishlist</a></span>
             </div>
             <div class="cart">
                 <img src="img/li_shopping-cart.svg" alt="shoping cart logo">
-                <span class="my-cart">My cart</span>
-                <span class="cart-price">21$</span>
+                <span><a href="#" class="my-cart">My cart</a></span>
+                <span class="cart-price" id="cart-price-dynamic"></span>
             </div>
         </div>
         <div class="nav-header__profile">
@@ -58,7 +58,7 @@
         </div>
         <div class="nav-menu__phone">
             <img src="img/Stroke5.svg" alt="phone logo">
-            <span class="phone-number">1233-7777</span>
+            <span class="phone-number"><a href="tel:12337777">1233-7777</a></span>
             <span class="phone-info">24/7 support center</span>
         </div>
     </div>
@@ -130,6 +130,63 @@
         <div class="explore-arrow-right"></div>
     </div>
 </div>
+<div class="featured">
+    <div class="featured-header">
+        <h3>Featured Products</h3>
+        <ul>
+            <li><a href="#">All</a></li>
+            <li><a href="#">Vegetables</a></li>
+            <li><a href="#">Fruits</a></li>
+            <li><a href="#">Coffe & teas</a></li>
+            <li><a href="#">Meat</a></li>
+        </ul>
+    </div>
+    <div class="featured-products">
+        <div class="featured-arrow-left"></div>
+        <div class="featured-card"><img src="img/Featured/1.png" alt="">
+            <p>Vegetables</p>
+            <h5>Redish 500g</h5>
+            <p>(4)</p>
+            <p>By Mr.food</p>
+            <p>$2<span>$3.99</span></p>
+            <button type="button" class="featured-button">Add</button>
+        </div>
+        <div class="featured-card"><img src="img/Featured/2.png" alt="">
+            <p></p>
+            <h5></h5>
+            <p></p>
+            <p></p>
+            <p></p>
+            <button type="button" class="featured-button">Add</button>
+        </div>
+        <div class="featured-card"><img src="img/Featured/3.png" alt="">
+            <p></p>
+            <h5></h5>
+            <p></p>
+            <p></p>
+            <p></p>
+            <button type="button" class="featured-button">Add</button>
+        </div>
+        <div class="featured-card"><img src="img/Featured/4.png" alt="">
+            <p></p>
+            <h5></h5>
+            <p></p>
+            <p></p>
+            <p></p>
+            <button type="button" class="featured-button">Add</button>
+        </div>
+        <div class="featured-card"><img src="img/Featured/5.png" alt="">
+            <p></p>
+            <h5></h5>
+            <p></p>
+            <p></p>
+            <p></p>
+            <button type="button" class="featured-button">Add</button>
+        </div>
+        <div class="featured-arrow-right"></div>
+    </div>
+</div>
+
 <div class="pre-footer">
     <div class="pre-footer1 pre-footer-grid">
         <img src="img/foot1.svg" alt="footer image 1">
@@ -231,5 +288,6 @@
     </div>
 </footer>
 <script src="js/random_color.js"></script>
+<script src="js/random_price.js"></script>
 </body>
 </html>
