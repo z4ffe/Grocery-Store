@@ -44,7 +44,7 @@ body {
 .nav-header__logo {
   display: block;
   content: "";
-  background-image: url("../img/logo.svg");
+  background-image: url("/../img/logo.svg");
   width: 147px;
   height: 44px;
   background-repeat: no-repeat;
