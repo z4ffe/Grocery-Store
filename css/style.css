@@ -20,7 +20,8 @@
 }
 
 body {
-  background: #f8f8f8;
+  /*background: #f8f8f8;*/
+  background: #fff;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
@@ -43,7 +44,7 @@ body {
 .nav-header__logo {
   display: block;
   content: "";
-  background-image: url("../img/Logo.svg");
+  background-image: url("../img/logo.svg");
   width: 147px;
   height: 44px;
   background-repeat: no-repeat;
@@ -244,7 +245,7 @@ body {
 }
 .banner .offer h4 {
   margin-left: 120px;
-  color: rgb(131, 131, 131);
+  color: rgba(131, 131, 131, 0.25);
   font-size: 20px;
   font-weight: 500;
 }
@@ -371,7 +372,7 @@ body {
   text-align: center;
   font-size: 14px;
   font-weight: 500;
-  color: rgb(131, 131, 131);
+  color: rgba(131, 131, 131, 0.25);
   padding-top: 10px;
 }
 .explore .explore-content .explore-arrow-right {
@@ -455,15 +456,64 @@ body {
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 55% 65%;
-  margin-top: 70px;
   transition: 0.3s;
 }
 .featured .featured-products .featured-card {
   display: flex;
   flex-direction: column;
+  border: 1px solid rgba(173, 173, 173, 0.25);
+  border-radius: 3px;
+  height: 311px;
 }
 .featured .featured-products .featured-card img {
   height: 144px;
+  border-radius: 10px;
+}
+.featured .featured-products .featured-card .featured-1 {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(173, 173, 173);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.featured .featured-products .featured-card .featured-2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+.featured .featured-products .featured-card .featured-3 {
+  background-image: url("/../img/Featured/stars.svg");
+  background-repeat: no-repeat;
+  padding-left: 90px;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(131, 131, 131, 0.25);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.featured .featured-products .featured-card .featured-4 {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(173, 173, 173);
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.featured .featured-products .featured-card .featured-4 span {
+  color: #3BB77E;
+}
+.featured .featured-products .featured-card .featured-5 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #3BB77E;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.featured .featured-products .featured-card .featured-5 span {
+  color: rgb(173, 173, 173);
+  margin-left: 7px;
+  font-size: 16px;
+  font-weight: 400;
 }
 .featured .featured-products .featured-card .featured-button {
   background-image: url("/../img/Featured/li_shopping-cart.svg");
@@ -481,6 +531,8 @@ body {
   font-size: 14px;
   font-weight: 500;
   color: #3BB77E;
+  margin-top: -27px;
+  margin-right: 20px;
 }
 .featured .featured-products .featured-card .featured-button:hover {
   transform: scale(1.1);
@@ -514,7 +566,6 @@ body {
   background-size: 30px;
   background-position: 55% 65%;
   transform: scaleX(-1);
-  margin-top: 70px;
   transition: 0.3s;
 }
 
@@ -547,7 +598,7 @@ body {
   margin-left: 15px;
 }
 .pre-footer .pre-footer-grid span {
-  color: rgb(131, 131, 131);
+  color: rgba(131, 131, 131, 0.25);
   font-size: 14px;
   width: 225px;
   margin-left: 15px;
@@ -584,7 +635,7 @@ footer .footer-main .footer-block1 .footer-info-1 h6 {
   margin-top: 16px;
 }
 footer .footer-main .footer-block1 .footer-info-1 h6 span {
-  color: rgb(131, 131, 131);
+  color: rgba(131, 131, 131, 0.25);
   font-size: 15px;
   font-weight: 500;
   padding-left: 10px;
