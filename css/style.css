@@ -569,11 +569,70 @@ body {
   transition: 0.3s;
 }
 
+.mobilead {
+  display: grid;
+  grid-template-columns: 1fr 789px;
+  max-width: 1440px;
+  background: rgb(222, 249, 236);
+  height: 796px;
+  margin-top: 50px;
+}
+.mobilead .mobilead-buttons h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(37, 61, 78);
+  margin-top: 237px;
+  margin-left: 120px;
+}
+.mobilead .mobilead-buttons p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(173, 173, 173);
+  margin-left: 120px;
+  padding-top: 29px;
+}
+.mobilead .mobilead-buttons .appstore {
+  background-image: url("../img/MobileAd/appstore.svg");
+  width: 180px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  float: left;
+  margin-left: 120px;
+  margin-top: 67px;
+}
+.mobilead .mobilead-buttons .playmarket {
+  background-image: url("../img/MobileAd/playmarket.svg");
+  width: 200px;
+  height: 110px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: inline-block;
+  margin-top: 64px;
+}
+.mobilead .mobilead-logos {
+  display: flex;
+}
+.mobilead .mobilead-logos .mobile1 {
+  width: 400px;
+  z-index: 2;
+}
+.mobilead .mobilead-logos .mobile2 {
+  width: 315px;
+  position: absolute;
+  margin-left: 347px;
+  margin-top: 41px;
+  z-index: 1;
+}
+
 .pre-footer {
   display: flex;
   justify-content: space-between;
   margin-left: 120px;
-  margin-top: 250px;
+  margin-top: 50px;
   padding-bottom: 50px;
   border-bottom: 1px solid rgba(173, 173, 173, 0.17);
   width: 1220px;
