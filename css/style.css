@@ -44,7 +44,7 @@ body {
 .nav-header__logo {
   display: block;
   content: "";
-  background-image: url("/../img/logo.svg");
+  background-image: url("../img/logo.svg");
   width: 147px;
   height: 44px;
   background-repeat: no-repeat;
@@ -334,7 +334,7 @@ body {
   width: 46px;
   height: 46px;
   border-radius: 50px;
-  background-image: url("/../img/li_arrow-right.png");
+  background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 55% 65%;
@@ -343,7 +343,7 @@ body {
 }
 .explore .explore-content .explore-arrow-left:hover {
   background: #3BB77E;
-  background-image: url("/../img/li_arrow-right.png");
+  background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 55% 65%;
@@ -381,7 +381,7 @@ body {
   width: 46px;
   height: 46px;
   border-radius: 50px;
-  background-image: url("/../img/li_arrow-right.png");
+  background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 55% 65%;
@@ -391,7 +391,7 @@ body {
 }
 .explore .explore-content .explore-arrow-right:hover {
   background: #3BB77E;
-  background-image: url("/../img/li_arrow-right.png");
+  background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 55% 65%;
@@ -443,7 +443,7 @@ body {
   width: 46px;
   height: 46px;
   border-radius: 50px;
-  background-image: url("/../img/li_arrow-right.png");
+  background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 55% 65%;
@@ -452,7 +452,7 @@ body {
 }
 .featured .featured-products .featured-arrow-left:hover {
   background: #3BB77E;
-  background-image: url("/../img/li_arrow-right.png");
+  background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 55% 65%;
@@ -483,7 +483,7 @@ body {
   margin-left: 10px;
 }
 .featured .featured-products .featured-card .featured-3 {
-  background-image: url("/../img/Featured/stars.svg");
+  background-image: url("../img/Featured/stars.svg");
   background-repeat: no-repeat;
   padding-left: 90px;
   font-size: 12px;
@@ -516,7 +516,7 @@ body {
   font-weight: 400;
 }
 .featured .featured-products .featured-card .featured-button {
-  background-image: url("/../img/Featured/li_shopping-cart.svg");
+  background-image: url("../img/Featured/li_shopping-cart.svg");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 28% 50%;
@@ -540,7 +540,7 @@ body {
 }
 .featured .featured-products .featured-card .featured-button:active {
   background: white;
-  background-image: url("/../img/Featured/li_shopping-cart.svg");
+  background-image: url("../img/Featured/li_shopping-cart.svg");
   background-repeat: no-repeat;
   background-size: 15px;
   background-position: 28% 50%;
@@ -551,7 +551,7 @@ body {
   width: 46px;
   height: 46px;
   border-radius: 50px;
-  background-image: url("/../img/li_arrow-right.png");
+  background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 55% 65%;
@@ -561,7 +561,7 @@ body {
 }
 .featured .featured-products .featured-arrow-right:hover {
   background: #3BB77E;
-  background-image: url("/../img/li_arrow-right.png");
+  background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
   background-position: 55% 65%;
