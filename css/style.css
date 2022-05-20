@@ -226,6 +226,7 @@ body {
   grid-template-columns: 798px 1fr;
   background: rgba(197, 234, 217, 0.78);
   margin-top: 5px;
+  background-image: url("../img/bannerimage1.png");
 }
 .banner .offer {
   display: flex;
@@ -245,7 +246,7 @@ body {
 }
 .banner .offer h4 {
   margin-left: 120px;
-  color: rgba(131, 131, 131, 0.25);
+  color: rgb(173, 173, 173);
   font-size: 20px;
   font-weight: 500;
 }
@@ -372,7 +373,7 @@ body {
   text-align: center;
   font-size: 14px;
   font-weight: 500;
-  color: rgba(131, 131, 131, 0.25);
+  color: rgb(173, 173, 173);
   padding-top: 10px;
 }
 .explore .explore-content .explore-arrow-right {
@@ -576,6 +577,7 @@ body {
   background: rgb(222, 249, 236);
   height: 796px;
   margin-top: 50px;
+  background-image: url("../img/bannerimage1.png");
 }
 .mobilead .mobilead-buttons h2 {
   font-size: 50px;
@@ -657,7 +659,7 @@ body {
   margin-left: 15px;
 }
 .pre-footer .pre-footer-grid span {
-  color: rgba(131, 131, 131, 0.25);
+  color: rgb(173, 173, 173);
   font-size: 14px;
   width: 225px;
   margin-left: 15px;
@@ -694,16 +696,16 @@ footer .footer-main .footer-block1 .footer-info-1 h6 {
   margin-top: 16px;
 }
 footer .footer-main .footer-block1 .footer-info-1 h6 span {
-  color: rgba(131, 131, 131, 0.25);
+  color: rgb(173, 173, 173);
   font-size: 15px;
   font-weight: 500;
   padding-left: 10px;
 }
 footer .footer-block2 {
-  margin-left: 144px;
+  margin-left: 130px;
 }
 footer .footer-block2 .footer-main-header {
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 600;
   padding-bottom: 36px;
 }
@@ -712,6 +714,7 @@ footer .footer-block2 ul li {
   font-size: 15px;
   color: rgb(37, 61, 78);
   padding-top: 15px;
+  width: 120px;
 }
 footer .footer-data {
   margin-top: 29px;
