@@ -42,7 +42,9 @@ body {
   border-bottom: 1px solid rgba(173, 173, 173, 0.17);
 }
 .nav-header__logo {
-  display: block;
+  display: flex;
+}
+.nav-header__logo .logo-link {
   content: "";
   background-image: url("../img/logo.svg");
   width: 147px;

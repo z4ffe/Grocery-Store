@@ -54,13 +54,16 @@ body {
 
 
     &__logo {
-      display: block;
-      content: '';
-      background-image: url("../img/logo.svg");
-      width: 147px;
-      height: 44px;
-      background-repeat: no-repeat;
-      background-size: contain;
+      display: flex;
+
+      .logo-link {
+        content: '';
+        background-image: url("../img/logo.svg");
+        width: 147px;
+        height: 44px;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
     }
 
     &__search {
@@ -793,7 +796,8 @@ body {
 
       }
     }
-    img{
+
+    img {
       width: 184px;
       height: 289px;
       margin-left: 80px;
@@ -865,7 +869,8 @@ body {
         }
       }
     }
-    img{
+
+    img {
       width: 275px;
       height: 258px;
       margin-top: auto;
