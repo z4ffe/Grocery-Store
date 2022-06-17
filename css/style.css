@@ -4,11 +4,10 @@
   display: inline-block;
   border: solid black;
   border-width: 0 1.5px 1.5px 0;
-  margin: 0px 0px 2px 8px;
+  margin: 0 0 2px 8px;
   padding: 3px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  background: none;
   background: none;
 }
 
@@ -20,7 +19,6 @@
 }
 
 body {
-  /*background: #f8f8f8;*/
   background: #fff;
   max-width: 1440px;
   margin-left: auto;
@@ -38,7 +36,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid rgba(173, 173, 173, 0.17);
 }
 .nav-header__logo {
@@ -81,7 +78,7 @@ body {
   background: none;
   border: none;
   width: 155px;
-  border-radius: 3px 0px 0px 3px;
+  border-radius: 3px 0 0 3px;
   cursor: pointer;
   font-weight: 600;
   /*color: $mainblack;*/
@@ -258,7 +255,7 @@ body {
 .banner {
   display: grid;
   grid-template-columns: 798px 1fr;
-  background: rgba(197, 234, 217, 0.78);
+  background-color: rgba(197, 234, 217, 0.78);
   margin-top: 5px;
   background-image: url("../img/bannerimage1.png");
 }
@@ -291,7 +288,7 @@ body {
 }
 .banner .offer .email-form .mail-icon {
   background: white;
-  border-radius: 2px 0px 0px 2px;
+  border-radius: 2px 0 0 2px;
   display: flex;
 }
 .banner .offer .email-form .mail-icon img {
@@ -314,7 +311,7 @@ body {
   font-weight: 600;
   font-size: 13px;
   cursor: pointer;
-  border-radius: 0px 2px 2px 0px;
+  border-radius: 0 2px 2px 0;
 }
 .banner .offer .email-form button:hover {
   color: rgb(37, 61, 78);
@@ -365,7 +362,7 @@ body {
 }
 .explore .explore-content .explore-arrow-left {
   content: "";
-  background: #F2F3F4;
+  background-color: #F2F3F4;
   width: 46px;
   height: 46px;
   border-radius: 50px;
@@ -377,7 +374,7 @@ body {
   cursor: pointer;
 }
 .explore .explore-content .explore-arrow-left:hover {
-  background: #3BB77E;
+  background-color: #3BB77E;
   background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
@@ -412,7 +409,7 @@ body {
 }
 .explore .explore-content .explore-arrow-right {
   content: "";
-  background: #F2F3F4;
+  background-color: #F2F3F4;
   width: 46px;
   height: 46px;
   border-radius: 50px;
@@ -425,7 +422,7 @@ body {
   cursor: pointer;
 }
 .explore .explore-content .explore-arrow-right:hover {
-  background: #3BB77E;
+  background-color: #3BB77E;
   background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
@@ -474,7 +471,7 @@ body {
 }
 .featured .featured-products .featured-arrow-left {
   content: "";
-  background: #F2F3F4;
+  background-color: #F2F3F4;
   width: 46px;
   height: 46px;
   border-radius: 50px;
@@ -486,7 +483,7 @@ body {
   margin-top: 90px;
 }
 .featured .featured-products .featured-arrow-left:hover {
-  background: #3BB77E;
+  background-color: #3BB77E;
   background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
@@ -574,7 +571,7 @@ body {
   transition: 0.2s;
 }
 .featured .featured-products .featured-card .featured-button:active {
-  background: white;
+  background-color: white;
   background-image: url("../img/Featured/li_shopping-cart.svg");
   background-repeat: no-repeat;
   background-size: 15px;
@@ -582,7 +579,7 @@ body {
 }
 .featured .featured-products .featured-arrow-right {
   content: "";
-  background: #F2F3F4;
+  background-color: #F2F3F4;
   width: 46px;
   height: 46px;
   border-radius: 50px;
@@ -595,7 +592,7 @@ body {
   cursor: pointer;
 }
 .featured .featured-products .featured-arrow-right:hover {
-  background: #3BB77E;
+  background-color: #3BB77E;
   background-image: url("../img/li_arrow-right.png");
   background-repeat: no-repeat;
   background-size: 30px;
@@ -606,16 +603,14 @@ body {
 
 .shop-ads {
   display: flex;
-  margin: 100px auto;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin: 100px 80px;
   justify-content: space-between;
 }
 .shop-ads__one {
   display: flex;
   width: 620px;
   height: 300px;
-  background: rgba(255, 245, 225, 0.85);
+  background-color: rgba(255, 245, 225, 0.85);
   background-image: url("../img/bannerimage1.png");
   border-radius: 3px;
 }
@@ -653,7 +648,7 @@ body {
   border: none;
   width: 143px;
   height: 52px;
-  background: #3BB77E;
+  background-color: #3BB77E;
   color: white;
   background-image: url("../img/li_arrow-right.svg");
   background-size: 18px;
@@ -662,7 +657,7 @@ body {
   font-size: 15px;
   font-weight: 500;
   padding-right: 35px;
-  border-radius: 0px 2px 2px 0px;
+  border-radius: 0 2px 2px 0;
   cursor: pointer;
 }
 .shop-ads__one .shop-ads__content1 button:hover {
@@ -679,7 +674,7 @@ body {
   display: flex;
   width: 620px;
   height: 300px;
-  background: rgba(210, 239, 225, 0.85);
+  background-color: rgba(210, 239, 225, 0.85);
   background-image: url("../img/bannerimage1.png");
   border-radius: 3px;
 }
@@ -718,7 +713,7 @@ body {
   border: none;
   width: 143px;
   height: 52px;
-  background: #3BB77E;
+  background-color: #3BB77E;
   color: white;
   background-image: url("../img/li_arrow-right.svg");
   background-size: 18px;
@@ -727,7 +722,7 @@ body {
   font-size: 15px;
   font-weight: 500;
   padding-right: 35px;
-  border-radius: 0px 2px 2px 0px;
+  border-radius: 0 2px 2px 0;
   cursor: pointer;
 }
 .shop-ads__two .shop-ads__content2 button:hover {
@@ -778,7 +773,6 @@ body {
   width: 224px;
   height: 41px;
   border-radius: 4px;
-  align-self: center;
   padding-left: 20px;
   padding-top: 9px;
   color: white;
@@ -806,7 +800,7 @@ body {
 }
 .bestsells-header .bestsells-button1:hover {
   content: "";
-  background: #3BB77E;
+  background-color: #3BB77E;
   background-image: url("../img/li_arrow-rightblack.svg");
   background-repeat: no-repeat;
   background-size: 30px;
@@ -817,7 +811,7 @@ body {
 }
 .bestsells-header .bestsells-button2:hover {
   content: "";
-  background: #3BB77E;
+  background-color: #3BB77E;
   background-image: url("../img/li_arrow-rightblack.svg");
   background-repeat: no-repeat;
   background-size: 30px;
@@ -875,7 +869,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 789px;
   max-width: 1440px;
-  background: rgb(222, 249, 236);
+  background-color: rgb(222, 249, 236);
   height: 796px;
   margin-top: 50px;
   background-image: url("../img/bannerimage1.png");
