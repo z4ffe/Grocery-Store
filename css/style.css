@@ -237,7 +237,7 @@ body {
   font-weight: 600;
 }
 .nav-menu__phone .phone-number:hover {
-  transform: scale(1.1);
+  transform: scale(104%);
   transition: 0.2s;
 }
 .nav-menu__phone .phone-info {
@@ -692,6 +692,7 @@ body {
   border-radius: 3px;
   padding-left: 6px;
   padding-top: 5px;
+  text-align: center;
 }
 .shop-ads__two .shop-ads__content2 h3 {
   font-size: 26px;
@@ -727,6 +728,137 @@ body {
   width: 275px;
   height: 258px;
   margin-top: auto;
+}
+
+.bestsells {
+  display: grid;
+  grid-auto-rows: 50px 500px;
+  margin-left: 80px;
+  max-width: 1285px;
+}
+.bestsells-header {
+  display: flex;
+}
+.bestsells-header h3 {
+  font-size: 32px;
+  color: rgb(37, 61, 78);
+  font-weight: 600;
+  align-self: center;
+}
+.bestsells-header ul {
+  display: flex;
+  align-self: center;
+}
+.bestsells-header ul li {
+  margin-left: 26px;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.bestsells-header ul li:hover {
+  color: #3BB77E;
+  transition: 0.2s;
+}
+.bestsells-header p {
+  display: block;
+  align-self: center;
+  margin-left: 45px;
+  background: rgb(243, 82, 68);
+  width: 224px;
+  height: 41px;
+  border-radius: 4px;
+  align-self: center;
+  padding-left: 20px;
+  padding-top: 9px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.bestsells-header p span {
+  margin-left: 15px;
+}
+.bestsells-header button {
+  border: none;
+  width: 46px;
+  height: 46px;
+  border-radius: 50px;
+  content: "";
+  background-image: url("../img/li_arrow-rightblack.svg");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 50% 40%;
+  cursor: pointer;
+}
+.bestsells-header .bestsells-button1 {
+  margin-left: 320px;
+  transform: scaleX(-1);
+}
+.bestsells-header .bestsells-button1:hover {
+  content: "";
+  background: #3BB77E;
+  background-image: url("../img/li_arrow-rightblack.svg");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 50% 40%;
+}
+.bestsells-header .bestsells-button2 {
+  margin-left: 12px;
+}
+.bestsells-header .bestsells-button2:hover {
+  content: "";
+  background: #3BB77E;
+  background-image: url("../img/li_arrow-rightblack.svg");
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 50% 40%;
+}
+.bestsells .bestsells-content {
+  display: flex;
+  width: 100%;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+.bestsells .bestsells-content .bestsells-content__card {
+  width: 228px;
+  height: 387px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(173, 173, 173, 0.25);
+  border-radius: 3px;
+}
+.bestsells .bestsells-content .bestsells-content__card .bestsells-deals {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 500;
+  background: rgb(255, 212, 128);
+  width: 78px;
+  height: 27px;
+  border-radius: 3px;
+  padding-left: 6px;
+  padding-top: 5px;
+  text-align: center;
+}
+.bestsells .bestsells-content .bestsells-content__card .bestsells-descriptions {
+  color: rgb(173, 173, 173);
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.bestsells .bestsells-content .bestsells-content__card h2 {
+  color: rgb(37, 61, 78);
+  font-size: 16px;
+  font-weight: 600;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.bestsells .bestsells-content .bestsells-content__card .stars {
+  width: 107px;
+  margin-left: 10px;
+  margin-top: 12px;
+}
+.bestsells .bestsells-content .bestsells-content__card span {
+  display: inline-block;
 }
 
 .mobilead {
