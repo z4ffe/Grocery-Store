@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Grocery Store</title>
 </head>
-<body id="mainmain">
+<body>
 <nav class="nav">
     <div class="nav-header">
         <div class="nav-header__logo">
@@ -36,11 +36,13 @@
             <div class="wishlist">
                 <img src="img/li_heart.svg" alt="wishlist logo">
                 <span><a href="#">Wishlist</a></span>
+                <div class="wishlist-counter" id="wishlist-counter"></div>
             </div>
             <div class="cart">
                 <img src="img/li_shopping-cart.svg" alt="shoping cart logo">
                 <span><a href="#" class="my-cart">My cart</a></span>
                 <span class="cart-price" id="cart-price-dynamic"></span>
+                <div class="cart-counter" id="cart-counter"></div>
             </div>
         </div>
         <div class="nav-header__profile">
@@ -105,39 +107,39 @@
     </div>
     <div class="explore-content">
         <div class="explore-arrow-left"></div>
-        <div class="explore-card"  id="card-1">
+        <div class="explore-card" id="card0">
             <img src="img/Explore/" alt="alt" id="img-0">
-            <h5 id="explorer-fruit-1"><!--Peach--></h5>
+            <h5 id="explorer-fruit-0"><!--Peach--></h5>
             <p>20 items</p>
         </div>
-        <div class="explore-card" id="card-2">
+        <div class="explore-card" id="card1">
             <img src="img/Explore/" alt="alt" id="img-1">
-            <h5 id="explorer-fruit-2">Veget<!--ables--></h5>
+            <h5 id="explorer-fruit-1">Veget<!--ables--></h5>
             <p>220 items</p>
         </div>
-        <div class="explore-card" id="card-3">
+        <div class="explore-card" id="card2">
             <img src="img/Explore/" alt="alt" id="img-2">
-            <h5 id="explorer-fruit-3">Straw<!--berry--></h5>
+            <h5 id="explorer-fruit-2">Straw<!--berry--></h5>
             <p>10 items</p>
         </div>
-        <div class="explore-card" id="card-4">
+        <div class="explore-card" id="card3">
             <img src="img/Explore/" alt="alt" id="img-3">
-            <h5 id="explorer-fruit-4"><!--Apple--></h5>
+            <h5 id="explorer-fruit-3"><!--Apple--></h5>
             <p>40 items</p>
         </div>
-        <div class="explore-card" id="card-5">
+        <div class="explore-card" id="card4">
             <img src="img/Explore/" alt="alt" id="img-4">
-            <h5 id="explorer-fruit-5">O<!--range--></h5>
+            <h5 id="explorer-fruit-4">O<!--range--></h5>
             <p>23 items</p>
         </div>
-        <div class="explore-card" id="card-6">
+        <div class="explore-card" id="card5">
             <img src="img/Explore/" alt="alt" id="img-5">
-            <h5 id="explorer-fruit-6">P<!--otato--></h5>
+            <h5 id="explorer-fruit-5">P<!--otato--></h5>
             <p>3 items</p>
         </div>
-        <div class="explore-card" id="card-7">
+        <div class="explore-card" id="card6">
             <img src="img/Explore/" alt="alt" id="img-6">
-            <h5 id="explorer-fruit-7">C<!--arrot--></h5>
+            <h5 id="explorer-fruit-6">C<!--arrot--></h5>
             <p>9 items</p>
         </div>
         <div class="explore-arrow-right"></div>
@@ -227,7 +229,7 @@
             <li>Popular</li>
             <li>New</li>
         </ul>
-        <p>Expires in: <span>10 : 56 : 21</span></p>
+        <p>Expires in: <span class="bestsells__hour">10</span> : <span class="bestsells__minute">56</span> : <span class="bestsells__second">21</span></p>
         <button type="button" class="bestsells-button1"></button>
         <button type="button" class="bestsells-button2"></button>
     </div>
@@ -239,6 +241,11 @@
             <h2>Coffe 1kg</h2>
             <img src="img/Featured/stars.svg" alt="" class="stars">
             <span>(4)</span>
+            <p>By <span>Mr.food</span></p>
+            <p>$20</p>
+            <img src="" alt="">
+            <p>Sold 2/10</p>
+            <button></button>
         </div>
         <div class="bestsells-content__card2 bestsells-content__card">
             <p class="bestsells-deals">Best deal</p>
@@ -247,6 +254,11 @@
             <h2>Halal Sausage 350g</h2>
             <img src="img/Featured/stars.svg" alt="" class="stars">
             <span>(4)</span>
+            <p>By <span>Mr.food</span></p>
+            <p>$20</p>
+            <img src="" alt="">
+            <p>Sold 2/10</p>
+            <button></button>
         </div>
         <div class="bestsells-content__card3 bestsells-content__card">
             <p class="bestsells-deals">Save 4%</p>
@@ -255,6 +267,11 @@
             <h2>Green Tea 250g</h2>
             <img src="img/Featured/stars.svg" alt="" class="stars">
             <span>(4)</span>
+            <p>By <span>Mr.food</span></p>
+            <p>$20</p>
+            <img src="" alt="">
+            <p>Sold 2/10</p>
+            <button></button>
         </div>
         <div class="bestsells-content__card4 bestsells-content__card">
             <p class="bestsells-deals">Save 8%</p>
@@ -262,10 +279,26 @@
             <p class="bestsells-descriptions">Vegetables</p>
             <h2>Onion 1kg</h2>
             <img src="img/Featured/stars.svg" alt="" class="stars">
-        </div>
-        <div class="bestsells-content__card5 bestsells-content__card">
             <span>(4)</span>
+            <p>By <span>Mr.food</span></p>
+            <p>$20</p>
+            <img src="" alt="">
+            <p>Sold 2/10</p>
+            <button></button>
+        </div>
+        <div class="bestsells-content__card5">
             <h3>10% OFF</h3>
+            <span>For new member sign up at the first time</span>
+            <form action="">
+                <label for="input-email">Email address<span>*</span></label>
+                <img src="img/li_mail1.svg" alt="mail icon" class="input-email__image">
+                <input type="email" name="email" id="input-email" placeholder="johndoe@gmail.com">
+                <label for="input-password">Password<span>*</span></label>
+                <img src="img/li_key.svg" alt="mail icon" class="input-password__image">
+                <input type="password" name="password" id="input-password" placeholder="Maximum 8 characters"
+                       maxlength="8">
+                <button type="reset" class="bestsells__Button">Register Now</button>
+            </form>
         </div>
     </div>
 </div>
@@ -381,7 +414,7 @@
         </div>
     </div>
 </footer>
-<script src="js/main.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
 

@@ -119,6 +119,7 @@ body {
 .nav-header__cart .wishlist {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .nav-header__cart .wishlist span {
   padding-left: 5px;
@@ -129,6 +130,21 @@ body {
   font-size: 14px;
   font-weight: 500;
 }
+.nav-header__cart .wishlist-counter {
+  display: flex;
+  position: absolute;
+  top: 2px;
+  left: 11px;
+  content: "";
+  width: 17px;
+  height: 17px;
+  background-color: #3BB77E;
+  border-radius: 50%;
+  color: white;
+  font-size: 11px;
+  justify-content: center;
+  align-items: center;
+}
 .nav-header__cart .wishlist:hover {
   transform: scale(1.1);
   transition: 0.2s;
@@ -138,6 +154,7 @@ body {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   padding-left: 40px;
+  position: relative;
 }
 .nav-header__cart .cart img {
   grid-row: 1/3;
@@ -153,6 +170,20 @@ body {
 }
 .nav-header__cart .cart .cart-price {
   color: #3BB77E;
+}
+.nav-header__cart .cart-counter {
+  display: flex;
+  position: absolute;
+  left: 75px;
+  content: "";
+  width: 17px;
+  height: 17px;
+  background-color: #3BB77E;
+  border-radius: 50%;
+  color: white;
+  font-size: 11px;
+  justify-content: center;
+  align-items: center;
 }
 .nav-header__cart .cart:hover {
   transform: scale(1.1);
@@ -780,7 +811,7 @@ body {
   font-weight: 500;
 }
 .bestsells-header p span {
-  margin-left: 15px;
+  margin-left: 1px;
 }
 .bestsells-header button {
   border: none;
@@ -863,6 +894,69 @@ body {
 }
 .bestsells .bestsells-content .bestsells-content__card span {
   display: inline-block;
+}
+.bestsells .bestsells-content .bestsells-content__card5 {
+  width: 228px;
+  height: 387px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(173, 173, 173, 0.25);
+  border-radius: 3px;
+  background-image: url("../img/formcontimage.png");
+  background-color: #FFF7E6;
+}
+.bestsells .bestsells-content .bestsells-content__card5 h3 {
+  margin: 30px auto 0;
+  font-size: 32px;
+}
+.bestsells .bestsells-content .bestsells-content__card5 span {
+  font-size: 16px;
+  margin: 7px auto 0;
+  text-align: center;
+}
+.bestsells .bestsells-content .bestsells-content__card5 form {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 12px;
+  margin-top: 33px;
+  padding-left: 9px;
+  padding-right: 9px;
+  position: relative;
+}
+.bestsells .bestsells-content .bestsells-content__card5 form label span {
+  color: red;
+}
+.bestsells .bestsells-content .bestsells-content__card5 form input {
+  border: none;
+  width: 210px;
+  height: 40px;
+  padding-left: 40px;
+}
+.bestsells .bestsells-content .bestsells-content__card5 form .input-email__image {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 31px;
+  left: 20px;
+}
+.bestsells .bestsells-content .bestsells-content__card5 form .input-password__image {
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 91px;
+  left: 20px;
+}
+.bestsells .bestsells-content .bestsells-content__card5 form .bestsells__Button {
+  margin: 40px auto 0;
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 0 2px 2px 0;
+  background-color: #3BB77E;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .mobilead {
